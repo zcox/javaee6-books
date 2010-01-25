@@ -1,0 +1,2 @@
+Run "mvn eclipse:eclipse" to generate Eclipse project files.  You should use the GlassFish Tools Bundle for Eclipse: https://glassfishplugins.dev.java.net/
+

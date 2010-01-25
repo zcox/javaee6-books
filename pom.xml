@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sourceallies</groupId>
-	<artifactId>javaee6java</artifactId>
+	<artifactId>javaee6-books</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>javaee6java Maven Webapp</name>
+	<name>javaee6-books Maven Webapp</name>
 
 	<build>
-		<finalName>javaee6java</finalName>
+		<finalName>javaee6-books</finalName>
 		<plugins>
 
 			<!-- Use JDK 1.6 -->
@@ -22,7 +22,7 @@
 				</configuration>
 			</plugin>
 
-            <!-- Adds WTP support to Eclipse project -->
+			<!-- Adds WTP support to Eclipse project -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
