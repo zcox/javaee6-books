@@ -1,6 +1,5 @@
 package com.sourceallies.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.ejb.EJB;
