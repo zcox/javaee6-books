@@ -1,13 +1,12 @@
 package com.sourceallies.controller;
 
-import java.util.List;
+import java.util.*;
 
-import javax.ejb.EJB;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.ejb.*;
+import javax.faces.bean.*;
 
-import com.sourceallies.ejb.BookEjb;
-import com.sourceallies.model.Book;
+import com.sourceallies.ejb.*;
+import com.sourceallies.model.*;
 
 @ManagedBean
 @RequestScoped

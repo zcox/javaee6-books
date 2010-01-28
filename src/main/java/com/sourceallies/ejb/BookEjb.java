@@ -1,12 +1,11 @@
 package com.sourceallies.ejb;
 
-import java.util.List;
+import java.util.*;
 
-import javax.ejb.Stateless;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import javax.ejb.*;
+import javax.persistence.*;
 
-import com.sourceallies.model.Book;
+import com.sourceallies.model.*;
 
 @Stateless
 public class BookEjb {
